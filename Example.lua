@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet(""))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/RXAHT/Ajazz-Init-Ui-Library/refs/heads/main/Library.lua"))()
 
 local Window = Library:NewWindow({
 	Title = "Ajazz Init",
