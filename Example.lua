@@ -1,5 +1,4 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Library = require(ReplicatedStorage.Ui)
+local Library = loadstring(game:HttpGet(""))()
 
 local Window = Library:NewWindow({
 	Title = "Ajazz Init",
