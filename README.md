@@ -7,10 +7,17 @@ Working in Roblox Studio and Executors
 
 Download Release: https://github.com/RXAHT/Ajazz-Init-Ui-Library/releases/tag/Release
 
-Get elements at this repo
+Drag it to Roblox Studio
+
+Create new LocalScript at StarterPack
+
+Get elements at Example.lua
+
+Paste code from Example.lua
 
 Delete loadstring line and paste:
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Library = require(ReplicatedStorage.Ui)
 ```
+Done!
